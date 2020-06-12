@@ -1,7 +1,12 @@
 # Ketikin
 
+![](demo.gif)
+
 Ketikin means "Type it for me" in Bahasa Indonesia.
 A react component that types for you.
+
+#### Bahasa Indonesia
+buat biar ngetik2 sendiri gitu.
 
 ### Install
 
