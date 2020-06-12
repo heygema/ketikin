@@ -17,6 +17,8 @@ npm install ketikin
 ### Usage
 
 ```javascript
+import Ketikin from 'ketikin';
+
 <Ketikin text="Hello, World." interval={100}>
   {value => <h1>{value}</h1>}
 </Ketikin>
@@ -24,7 +26,7 @@ npm install ketikin
 
 ### Props
 
-```
+```typescript
 type Props = {
   children: (value: string) => ReactElement;
   text: string;
