@@ -6,7 +6,7 @@
   "types": "./src/types.d.ts",
   "license": "MIT",
   "files": [
-    "lib"
+    "lib/Ketikin.js"
   ],
   "keywords": [
     "react",
