@@ -3,7 +3,7 @@
 Ketikin means "Type it for me" in Bahasa Indonesia.
 A react component that types for you.
 
-### install
+### Install
 
 ```bash
 npm install ketikin
@@ -18,3 +18,12 @@ npm install ketikin
 ```
 
 ### Props
+
+```
+type Props = {
+  children: (value: string) => ReactElement;
+  text: string;
+  texts?: string[];
+  interval?: number;
+};
+```
