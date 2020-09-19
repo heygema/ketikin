@@ -2,16 +2,16 @@
   "name": "ketikin",
   "version": "0.1.51",
   "private": false,
+  "author": "heygema",
   "main": "./lib/Ketikin.js",
   "types": "./src/types.d.ts",
   "license": "MIT",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "https://github.com/heygema/ketikin"
   },
-  "files": [
-    "lib/Ketikin.js"
-  ],
+  "files": ["lib/Ketikin.js"],
   "keywords": [
     "react",
     "typer",
@@ -46,11 +46,7 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
