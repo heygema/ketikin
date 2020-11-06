@@ -6,12 +6,12 @@
   "main": "./lib/Ketikin.js",
   "types": "./src/types.d.ts",
   "license": "MIT",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@heygema" },
   "repository": {
     "type": "git",
     "url": "https://github.com/heygema/ketikin"
   },
-  "files": ["lib/Ketikin.js"],
+  "files": ["lib/Ketikin.js", "src/types.d.ts"],
   "keywords": [
     "react",
     "typer",
