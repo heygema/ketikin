@@ -1,10 +1,10 @@
-import { ReactNode } from "react";
+import { ReactElement } from "react";
 
 export type Props = {
-  children: (value: string) => ReactNode;
+  children: (value: string) => ReactElement;
   text?: string;
   texts?: string[];
   interval?: number;
 };
 
-export default function Ketikin(props: Props): React.ReactNode;
+export default function Ketikin(props: Props): ReactElement;
