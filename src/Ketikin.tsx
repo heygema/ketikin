@@ -7,7 +7,7 @@ type Props = {
   interval?: number;
 };
 
-export default function Ketikin({ children, text, texts, interval }: Props) {
+export default function Ketikin({ children, text = '', texts, interval }: Props) {
   let [val, setVal] = useState("");
   // NOTE: typeState -> TYPE | DELETE
   let [typeState, setTypeState] = useState("TYPE");

@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 export type Props = {
   children: (value: string) => ReactNode;
-  text: string;
+  text?: string;
   texts?: string[];
   interval?: number;
 };
